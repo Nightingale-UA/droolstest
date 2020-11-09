@@ -4,5 +4,5 @@ rule 'hello'
 when
     $name: String()
 then
-    System.out.println("Hello " + $name);
+    System.out.println("Custom hello " + $name);
 end
