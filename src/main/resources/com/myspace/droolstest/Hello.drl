@@ -1,2 +1,8 @@
 package com.myspace.droolstest;
 
+rule 'hello'
+when
+    $name: String()
+then
+    System.out.println("Hello " + $name);
+end
