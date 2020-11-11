@@ -4,5 +4,5 @@ rule 'hello'
 when
     $name: String()
 then
-    System.out.println("Pretty hello " + $name);
+    System.out.println("Tagged hello " + $name);
 end
